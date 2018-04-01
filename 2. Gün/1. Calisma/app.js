@@ -1,0 +1,1 @@
+$('li.hot').addClass('ok test test2');

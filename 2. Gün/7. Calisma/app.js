@@ -1,0 +1,1 @@
+$('p + a').attr('href', 'www.google.com');

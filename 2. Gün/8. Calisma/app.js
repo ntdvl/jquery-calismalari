@@ -1,0 +1,1 @@
+$('p ~ ul').css('background', 'red');

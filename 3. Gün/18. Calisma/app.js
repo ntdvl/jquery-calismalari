@@ -1,0 +1,1 @@
+$(':submit').css('font-size', '35px');

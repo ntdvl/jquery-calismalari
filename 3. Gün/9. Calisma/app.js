@@ -1,0 +1,1 @@
+$('input[type="password"]').css('border', '1px solid red');

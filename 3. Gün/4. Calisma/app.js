@@ -1,0 +1,1 @@
+$('ul li:has(a)').css('color', 'red');

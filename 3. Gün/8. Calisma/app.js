@@ -1,0 +1,1 @@
+$('div button:only-child').text('test');

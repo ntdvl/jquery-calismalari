@@ -1,0 +1,1 @@
+$("p[id~='test']").css('color', 'red');

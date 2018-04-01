@@ -1,0 +1,1 @@
+$('ul:parent').css('color', 'red');

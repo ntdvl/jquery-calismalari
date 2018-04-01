@@ -1,0 +1,1 @@
+$('div:not(#test)').css('font-size', '25px');

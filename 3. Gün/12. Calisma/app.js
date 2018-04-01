@@ -1,0 +1,1 @@
+$("textarea[id|='te']").css('border', '1px solid red');

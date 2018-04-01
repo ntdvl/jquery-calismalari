@@ -1,0 +1,1 @@
+$('p').addClass('ok test');
