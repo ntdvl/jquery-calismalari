@@ -1,0 +1,5 @@
+$(function() {
+
+	$('ul').html('test');
+
+});
