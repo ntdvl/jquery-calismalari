@@ -1,0 +1,23 @@
+header {
+
+    padding: 20px;
+    border: 1px solid red;
+    margin: 0 0 40px 0;
+
+}
+
+main {
+
+    padding: 10px;
+    border: 1px solid red;
+    margin-top: 150px;
+
+}
+
+footer {
+
+    margin-top: 350px;
+    background: red;
+    color: white;
+
+}
