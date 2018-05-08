@@ -1,0 +1,5 @@
+$(function() {
+
+    $('div').slideDown('slow');
+
+});
