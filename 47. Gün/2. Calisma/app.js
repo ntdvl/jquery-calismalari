@@ -1,0 +1,48 @@
+$(function() {
+
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function() {
+
+        if (xhr.status == 200) {
+
+            var $response = xhr.responseXML;
+            var events = $response.getElementsByTagName('event');
+
+            for (var i = 0; i < events.length; i++) {
+                var $container, $image, $location, $city, $newline;
+
+                $container = document.createElement('div');
+                $container.className = 'event';
+
+                $image = document.createElement('img');
+                $image.setAttribute('src', getNodeValue(events[i], 'map'));
+                $image.setAttribute('alt', getNodeValue(events[i], 'location'));
+                $container.appendChild($image);
+
+                $location = document.createElement('p');
+                $city = document.createElement('b');
+                $newline = document.createElement('br');
+                $city.appendChild(document.createTextNode(getNodeValue(events[i], 'location')));
+                $location.appendChild($newline);
+                $location.insertBefore($city, $newline);
+                $location.appendChild(document.createTextNode(getNodeValue(events[i], 'date')));
+                $container.appendChild($location);
+
+                $('.content').appendChild($container);
+                
+            }
+            
+        }
+        
+        function getNodeValue(obj, tag) {
+
+            return obj.getElementsByTagName(tag)[0].firstChild.nodeValue;
+
+        }
+        
+    }
+    
+    xhr.open('GET', 'http://www.javascriptbook.com/code/c08/data/data.xml', true);
+    xhr.send(null);
+    
+});
