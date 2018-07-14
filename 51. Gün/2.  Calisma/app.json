@@ -1,0 +1,19 @@
+{
+
+    "events": [
+        {
+            "location": "Ankara",
+            "date": "July 19"
+        },
+        {
+            "location": "Bolu",
+            "date": "August 5"
+        },
+        {
+            "location": "İstanbul",
+            "date": "September 1"
+        }
+        
+    ]
+
+}

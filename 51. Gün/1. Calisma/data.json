@@ -1,0 +1,14 @@
+{
+
+    "events": [
+        {
+            "location": "Ankara",
+            "date": "June 19"
+        },
+        {
+            "location": "Bolu",
+            "date": "August 1"
+        }
+    ]
+
+}
