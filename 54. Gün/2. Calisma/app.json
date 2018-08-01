@@ -1,0 +1,16 @@
+{
+
+    "events": [
+        {
+            "location": "San Francisco",
+            "date": "01 May"
+        },
+        {
+
+            "location": "Golden Gate",
+            "date": "05 June"
+
+        }
+    ]
+
+}

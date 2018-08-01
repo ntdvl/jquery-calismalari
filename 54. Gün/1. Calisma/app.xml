@@ -1,0 +1,24 @@
+<events>
+
+    <event>
+        <location>San Francisco</location>
+        <date>01 May</date>
+        <invites>15</invites>
+    </event>
+
+    <event>
+        <location>Goldan Gate</location>
+        <date>03 July</date>
+        <invites>25</invites>
+    </event>
+
+
+    <event>
+        <location>Miami</location>
+        <date>09 August</date>
+        <invites>27</invites>
+    </event>
+
+
+
+</events>
